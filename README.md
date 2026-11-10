@@ -1,4 +1,4 @@
-# Awesome Name [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
+# Awesome Farm Management Systems [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
 
 [![Support Open Work](https://img.shields.io/badge/Support-Open%20Work-0A0A0A?style=flat&logo=github)](https://github.com/brandonhimpfen/support) 
 [![GitHub Sponsor](https://srv-cdn.himpfen.io/badges/github/github-flat.svg)](https://github.com/sponsors/brandonhimpfen) 
@@ -10,36 +10,68 @@
 
 📌 This repository is archived with Zenodo and can be cited using the DOI above.
 
-> A curated list of resources for
+> A curated list of resources for farm management software, enterprise agricultural platforms, field tracking solutions, and open-source farming management information systems (FMIS).
 
-Statement about the importance of the topic. Statement about who the list is intended for.
+Farm Management Information Systems (FMIS) enable agricultural producers, agronomists, and land operators to track field activities, optimize resource allocation, simplify regulatory record-keeping, and streamline financial accounting. This list is intended for farm operations managers, agricultural software engineers, agtech integrators, and independent growers.
 
 _Support ongoing maintenance and curation via [GitHub Sponsors](https://github.com/sponsors/brandonhimpfen)._
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Open Source Platforms](#open-source-platforms)
+- [Enterprise & Commercial FMIS](#enterprise--commercial-fmis)
+- [Specialized Management Tools](#specialized-management-tools)
+  - [Livestock & Herd Management](#livestock--herd-management)
+  - [Orchard & High-Value Crops](#orchard--high-value-crops)
+- [Data Standards & Interoperability](#data-standards--interoperability)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Section
+## Open Source Platforms
 
-About this section. Keep this short and focused on what the resources represent.
+Community-driven and self-hosted farm management software designed for data privacy, customization, and modular extensions.
 
-- [Example Project One](https://example.com/project-one) — Short, neutral description of what this resource does.
-- [Example Project Two](https://example.com/project-two) — Short, neutral description of what this resource does.
+- [farmOS](https://github.com/farmOS/farmOS) — Modular web-based application built on Drupal for farm planning, record-keeping, spatial tracking, and asset management.
+- [LiteFarm](https://github.com/LiteFarmOrg/LiteFarm) — Open-source digital platform built for smallholder and organic farmers to calculate environmental footprints, manage labor, and assess financial performance.
+- [Tania](https://github.com/usetania/tania-core) — Free and open-source farm management system for tracking locations, reservoirs, tasks, inventories, and crop growth progress.
+- [FarmData](https://github.com/farmdata/farmdata2) — Open farm management tool developed at Dickinson College to assist organic and small-scale farms with crop log tracking and compliance report generation.
 
-## Another Section
+## Enterprise & Commercial FMIS
 
-### Subsection
+Comprehensive cloud platforms designed for mid-to-large-scale agricultural operations, equipment fleet integration, and corporate farm logistics.
 
-- [Example Tool One](https://example.com/tool-one) — Short, neutral description of what this resource does.
-- [Example Tool Two](https://example.com/tool-two) — Short, neutral description of what this resource does.
+- [Agworld](https://www.agworld.com/) — Collaborative farm management platform facilitating joint planning between growers, farm workers, and agronomists.
+- [Climate FieldView](https://climate.com/) — Digital farming solution consolidating real-time field data, yield mapping, and equipment performance analytics.
+- [Granular](https://granular.ag/) — Enterprise farm management platform supporting land valuation, field-level profitability tracking, and operational efficiency.
+- [Trimble Agriculture](https://agriculture.trimble.com/) — Integrated hardware and farm management software ecosystem for guidance, fleet management, and field data mapping.
+
+## Specialized Management Tools
+
+Software tailored to specific farming disciplines beyond general row-crop management.
+
+### Livestock & Herd Management
+
+- [CattleMax](https://www.cattlemax.com/) — Complete herd management software for cattle operations tracking breeding, health records, and inventory.
+- [PastureMap](https://pasturemap.com/) — Rotational grazing and livestock management app built to maximize pasture yields and monitor soil health.
+
+### Orchard & High-Value Crops
+
+- [Tend](https://www.tend.com/) — All-in-one farm management platform designed specifically for high-diversity organic produce operations and market gardens.
+- [Agrivi](https://www.agrivi.com/) — Farm management platform tailored for fruit, vegetable, and vineyard production with integrated pest risk detection and compliance reporting.
+
+## Data Standards & Interoperability
+
+Frameworks, APIs, and open data initiatives focused on linking machinery, field equipment, and agricultural databases seamlessly.
+
+- [Open Ag Data Alliance (OADA)](https://openag.io/) — Open project providing API specifications and security models for interoperability across agricultural software platforms.
+- [AgGateway](https://www.aggateway.org/) — Industry consortium driving digital connectivity standards across agricultural input suppliers, equipment brands, and farm management systems.
 
 ## Related Awesome Lists
 
-- [Awesome Example One](https://example.com/awesome-one) — Short, neutral description of the related list.
-- [Awesome Example Two](https://example.com/awesome-two) — Short, neutral description of the related list.
-  
+- [Awesome AgTech](https://github.com/brandonhimpfen/awesome-agtech) — Curated list of technologies, platforms, and tools driving innovation across agriculture.
+- [Awesome Agricultural Data & Analytics](https://github.com/brandonhimpfen/awesome-agricultural-data-analytics) — Data platforms, open datasets, and spatial tools for agricultural decision-making.
+- [Awesome Agricultural Robotics](https://github.com/brandonhimpfen/awesome-agricultural-robotics) — Robotic hardware, autonomous machinery, and software for farming automation.
+- [Awesome Sustainability](https://github.com/brandonhimpfen/awesome-sustainability) — Open-source frameworks, calculators, and systems targeting environmental sustainability.
+
 ## Contribute
 
 Contributions are welcome. Please ensure your submission fully follows the requirements outlined in [`CONTRIBUTING.md`](CONTRIBUTING.md), including formatting, scope alignment, and category placement.
@@ -49,14 +81,3 @@ Pull requests that do not adhere to the contribution guidelines may be closed.
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
-
-## Maintenance
-
-This template includes GitHub Actions workflows for automated link checking:
-
-- **Links (PR)** checks Markdown links on pull requests.
-- **Links (Scheduled → Issue)** runs weekly and opens or updates an issue if it finds broken links.
-
-You can tune link checking behavior in `lychee.toml`.
-
-Automated checks: link checking (PR + weekly), duplicate URL detection, and a lightweight Awesome List lint.
