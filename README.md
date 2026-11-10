@@ -8,8 +8,6 @@
 [![X](https://srv-cdn.himpfen.io/badges/twitter/twitter-flat.svg)](https://x.com/ListsAwesome) 
 [![Facebook](https://srv-cdn.himpfen.io/badges/facebook-pages/facebook-pages-flat.svg)](https://www.facebook.com/awesomelists)
 
-📌 This repository is archived with Zenodo and can be cited using the DOI above.
-
 > A curated list of resources for farm management software, enterprise agricultural platforms, field tracking solutions, and open-source farming management information systems (FMIS).
 
 Farm Management Information Systems (FMIS) enable agricultural producers, agronomists, and land operators to track field activities, optimize resource allocation, simplify regulatory record-keeping, and streamline financial accounting. This list is intended for farm operations managers, agricultural software engineers, agtech integrators, and independent growers.
